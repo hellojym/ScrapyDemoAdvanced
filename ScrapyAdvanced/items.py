@@ -8,7 +8,10 @@
 import scrapy
 
 
-class ScrapyadvancedItem(scrapy.Item):
+class Gushi(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    title = scrapy.Field()
+    content = scrapy.Field()
+    author = scrapy.Field()
+    dynasty = scrapy.Field()
