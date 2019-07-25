@@ -15,3 +15,15 @@ class Gushi(scrapy.Item):
     content = scrapy.Field()
     author = scrapy.Field()
     dynasty = scrapy.Field()
+
+
+class LianjiaItem(scrapy.Item):
+    agent = scrapy.Field()
+    info = scrapy.Field()
+    floor = scrapy.Field()
+    date = scrapy.Field()
+    feature = scrapy.Field()
+    guapai = scrapy.Field()
+    price = scrapy.Field()
+    avg = scrapy.Field()
+    title = scrapy.Field()
