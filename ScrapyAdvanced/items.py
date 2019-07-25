@@ -27,3 +27,14 @@ class LianjiaItem(scrapy.Item):
     price = scrapy.Field()
     avg = scrapy.Field()
     title = scrapy.Field()
+
+
+class HouseItem(scrapy.Item):
+    title = scrapy.Field()
+    xiaoqu = scrapy.Field()
+    info = scrapy.Field()
+    area = scrapy.Field()
+    floor = scrapy.Field()
+    market = scrapy.Field()
+    total = scrapy.Field()
+    avg = scrapy.Field()
