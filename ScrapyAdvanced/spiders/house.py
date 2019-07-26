@@ -5,8 +5,8 @@ from ScrapyAdvanced.items import HouseItem
 
 def get_urls():
     result = []
-    for i in range(2, 75):
-        result.append("https://bj.lianjia.com/ershoufang/tongzhou/pg%dl2" % i)
+    for i in range(2, 12):
+        result.append("https://bj.lianjia.com/ershoufang/tongzhou/pg%ddp1l2a3p4" % i)
     return result
 
 
