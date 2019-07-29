@@ -38,3 +38,8 @@ class HouseItem(scrapy.Item):
     market = scrapy.Field()
     total = scrapy.Field()
     avg = scrapy.Field()
+
+
+class MeiziItem(scrapy.Item):
+    link = scrapy.Field()
+    path = scrapy.Field()
