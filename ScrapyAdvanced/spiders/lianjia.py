@@ -3,6 +3,7 @@ import scrapy
 from ScrapyAdvanced.items import LianjiaItem
 
 
+# 爬取链家北京通州2019上半年成交记录
 def get_urls():
     result = []
     for i in range(2, 60):

@@ -3,6 +3,7 @@ import scrapy
 from ScrapyAdvanced.items import HouseItem
 
 
+# 爬取贝壳网通州两室一厅的数据
 def get_urls():
     result = []
     for i in range(2, 12):

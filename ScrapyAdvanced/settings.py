@@ -66,9 +66,9 @@ LOG_LEVEL = 'INFO'
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'ScrapyAdvanced.pipelines.ImagePipeLine': 300,
+   'ScrapyAdvanced.pipelines.ImagePipeLine': 30,
 }
-IMAGES_STORE = '/Users/jiayuanmin/Desktop/imgs'
+IMAGES_STORE = 'imgs'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html

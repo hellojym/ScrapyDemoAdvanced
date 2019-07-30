@@ -41,5 +41,6 @@ class HouseItem(scrapy.Item):
 
 
 class MeiziItem(scrapy.Item):
-    link = scrapy.Field()
-    path = scrapy.Field()
+    img_urls = scrapy.Field()
+    images = scrapy.Field()
+    image_paths = scrapy.Field()

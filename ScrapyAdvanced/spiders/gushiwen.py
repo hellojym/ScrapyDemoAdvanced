@@ -3,6 +3,7 @@ import scrapy
 from ScrapyAdvanced.items import Gushi
 
 
+# 古诗文爬虫，爬取古诗文
 class GushiwenSpider(scrapy.Spider):
     count = 0
     name = 'gushiwen'
