@@ -19,6 +19,9 @@ class ImagePipeLine(ImagesPipeline):
 
     def get_media_requests(self, item, info):
         print("process_item")
+        # url = item['img_urls']
+        # self.default_headers['Referer'] = url
+        # yield Request(item['img_urls'], headers=self.default_headers)
         for image_url in item['img_urls']:
             self.default_headers['referer'] = image_url
             yield Request(image_url, headers=self.default_headers)
