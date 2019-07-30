@@ -3,7 +3,7 @@ import scrapy
 from ScrapyAdvanced.items import MeiziItem
 
 
-# 妹子图网站的所有妹子图片
+# 妹子图网站的所有妹子图片,并且保存到imgs文件夹下
 class MeiziSpider(scrapy.Spider):
     index = 0
     name = 'meizi'
@@ -14,9 +14,8 @@ class MeiziSpider(scrapy.Spider):
                       "Chrome/77.0.3833.0 Safari/537.36 "
     }
     urls = []
-    for i in range(5050, 5100):
+    for i in range(5000, 5100):
         urls.append("http://www.meizitu.com/a/%s.html" % i)
-    # start_urls = ["http://www.meizitu.com/a/5102.html"]
     start_urls = urls
 
     def parse(self, response):
